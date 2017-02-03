@@ -41,7 +41,7 @@ class MainHandler(webapp2.RequestHandler):
         num_sentence="your lucky number: " +(number)
         num_paragraph="<p>"+num_sentence +"</p>"
 
-        cookie_button ="<button>" "<a href= '.'> Another Cookie Please<?a>" "</button>"
+        cookie_button ="<button>" "<a href= '.'> Another Cookie Please</a>" "</button>"
 
         content= title +fortune_paragraph + num_paragraph + cookie_button
         self.response.write(content)
